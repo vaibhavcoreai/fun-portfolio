@@ -128,7 +128,7 @@ const ContactFooter = () => {
                 </div>
 
                 <div className="mt-20 text-sm text-gray-500 font-body">
-                    © {new Date().getFullYear()} Vaibhav Manaji. Made with 💙 and ☕
+                    © {new Date().getFullYear()} <a href="https://vaibhavmanaji.in" target="_blank" rel="noopener noreferrer" className="hover:text-gray-900 transition-colors underline decoration-dotted">Vaibhav Manaji</a>. Made with 💙 and ☕
                 </div>
             </div>
         </section>
