@@ -1,5 +1,7 @@
 # 🎨 Fun & Playful Developer Portfolio
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 > A creative, interactive, and hand-drawn style portfolio website built with React and Framer Motion.
 
 ## ✨ Features
