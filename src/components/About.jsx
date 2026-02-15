@@ -71,14 +71,14 @@ const About = () => {
                             </p>
                             <p> I love mixing logic with creativity. Clean code on the inside, playful design on the outside.
                             </p>
-                            <p>    
+                            <p>
                                 When I'm not debugging, exploring new tech, vibe-coding something unnecessary but fun, or just wondering why my code works (or doesn't).
                             </p>
                         </div>
 
                         {/* Fun Stats or Tags */}
                         <div className="pt-4 flex flex-wrap justify-center md:justify-start gap-3">
-                            {['🚀 Problem Solver', '🎶Singer', '🤖 AI Enthusiast', '☕ Coffee Lover','🎹 Instruments Player'].map((tag, index) => (
+                            {['🚀 Problem Solver', '🎶Singer', '🤖 AI Enthusiast', '☕ Coffee Lover', '🎹 Instruments Player'].map((tag, index) => (
                                 <motion.span
                                     key={tag}
                                     className={`px-4 py-2 rounded-full border-2 border-gray-800 text-sm font-bold ${isDay ? 'bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] text-gray-800' : 'bg-gray-100 text-gray-800'}`}
@@ -88,6 +88,33 @@ const About = () => {
                                     {tag}
                                 </motion.span>
                             ))}
+                        </div>
+
+                        {/* Social Buttons (Instagram & YouTube) */}
+                        <div className="pt-2 flex flex-wrap justify-center md:justify-start gap-3">
+                            <motion.a
+                                href="https://www.instagram.com/vaibhav.wav/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={`px-4 py-2 rounded-full border-2 border-gray-800 text-sm font-bold ${isDay ? 'bg-pink-100 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] text-gray-800' : 'bg-gray-100 text-gray-800'}`}
+                                whileHover={{ scale: 1.05 }}
+                                whileTap={{ scale: 0.95 }}
+                                transition={{ type: 'spring', stiffness: 400 }}
+                            >
+                                📸 Instagram
+                            </motion.a>
+
+                            <motion.a
+                                href="https://www.youtube.com/@VaibhavManaji1305"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={`px-4 py-2 rounded-full border-2 border-gray-800 text-sm font-bold ${isDay ? 'bg-red-100 shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] text-gray-800' : 'bg-gray-100 text-gray-800'}`}
+                                whileHover={{ scale: 1.05 }}
+                                whileTap={{ scale: 0.95 }}
+                                transition={{ type: 'spring', stiffness: 400 }}
+                            >
+                                ▶️ YouTube
+                            </motion.a>
                         </div>
                     </motion.div>
 

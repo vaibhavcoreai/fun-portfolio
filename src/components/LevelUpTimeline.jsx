@@ -89,7 +89,7 @@ const LevelUpTimeline = () => {
                             transition={{ delay: index * 0.1 }}
                         >
                             <motion.div
-                                className="p-6 rounded-2xl shadow-lg border-2 border-gray-800 h-full"
+                                className="p-6 rounded-2xl shadow-lg border-2 border-gray-800 h-full bg-dot-grid"
                                 style={{
                                     backgroundColor: skill.color,
                                     transform: `rotate(${Math.random() * 4 - 2}deg)`,
