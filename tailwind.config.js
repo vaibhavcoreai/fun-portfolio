@@ -12,7 +12,7 @@ export default {
             },
             fontFamily: {
                 'scratchy': ['"Caveat"', 'cursive'],
-                'body': ['"Comic Sans MS"', '"Comic Sans"', 'cursive'],
+                'body': ['"Inter"', 'system-ui', 'sans-serif'],
             },
         },
     },
