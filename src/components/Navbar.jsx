@@ -34,17 +34,7 @@ const Navbar = () => {
             >
                 <div className={`max-w-7xl mx-auto px-6 md:px-10 flex items-center justify-between transition-all duration-300`}>
 
-                    {/* Logo / Brand Name */}
-                    <a href="#home" className="relative group cursor-pointer z-50">
-                        <span className="font-scratchy text-3xl font-bold text-gray-800">Vaibhav</span>
-                        <motion.span
-                            className="absolute -bottom-1 left-0 w-full h-1 bg-yellow-400 rounded-full"
-                            layoutId="underline"
-                            initial={{ scaleX: 0 }}
-                            whileHover={{ scaleX: 1 }}
-                            transition={{ type: "spring", stiffness: 300 }}
-                        ></motion.span>
-                    </a>
+
 
                     {/* Desktop Menu */}
                     <div className={`hidden md:flex items-center gap-8 ${scrolled
