@@ -59,10 +59,10 @@ const Hero = () => {
     const isDay = true;
 
     // Mode-aware spacing
-    const sectionPadding = 'py-12 md:py-20'; /* Reduced padding for mobile */
+    const sectionPadding = 'pt-40 pb-12 md:py-20'; /* Increased top padding for mobile */
 
     return (
-        <section id="home" className={`relative z-10 min-h-screen flex items-center justify-center ${sectionPadding} px-4 md:px-6 overflow-hidden`}>
+        <section id="home" className={`relative z-10 min-h-screen flex items-start md:items-center justify-center ${sectionPadding} px-4 md:px-6 overflow-hidden`}>
             {/* Cinematic Bird Flyover - One time only */}
             {!birdHasFlown && <CinematicBird />}
 
