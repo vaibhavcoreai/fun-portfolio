@@ -32,10 +32,7 @@ const Navbar = () => {
                 animate={{ y: 0 }}
                 transition={{ duration: 0.6, ease: 'easeOut' }}
             >
-                <div className={`max-w-7xl mx-auto px-6 md:px-10 flex items-center justify-between transition-all duration-300`}>
-
-
-
+                <div className={`max-w-7xl mx-auto px-6 md:px-10 flex items-center justify-end transition-all duration-300`}>
                     {/* Desktop Menu */}
                     <div className={`hidden md:flex items-center gap-8 ${scrolled
                         ? 'bg-white/80 backdrop-blur-md px-8 py-3 rounded-full shadow-sm border border-white/50'
