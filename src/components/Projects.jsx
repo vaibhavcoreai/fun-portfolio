@@ -10,7 +10,7 @@ const Projects = () => {
         {
             title: "Writer",
             description: "A sanctuary for your thoughts. Distraction-free writing platform for modern storytellers, featuring real-time sync, focus mode, and a public library for readers.",
-            tech: ["React 19", "Firebase Auth", "Cloud Firestore","Vercel","Typescript"],
+            tech: ["React 19", "Firebase Auth", "Cloud Firestore", "Vercel", "Typescript"],
             github: "https://github.com/vaibhavcoreai/writer.",
             doodle: (
                 <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -24,7 +24,7 @@ const Projects = () => {
         {
             title: "Portfolio Website",
             description: "A personal portfolio created to document my learning journey and growth in technology.",
-            tech: ["React", "Tailwind CSS", "Vite","Framer Motion","Typescript","Git & GitHub"],
+            tech: ["React", "Tailwind CSS", "Vite", "Framer Motion", "Typescript", "Git & GitHub"],
             github: "https://github.com/vaibhavcoreai/My-portfolio",
             doodle: (
                 <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
@@ -38,8 +38,8 @@ const Projects = () => {
         {
             title: "Playful Interactive Portfolio Website",
             description: "Collection of interactive data visualizations exploring various datasets and storytelling.",
-            tech: ["React", "Tailwind CSS", "Vite","Framer Motion","Typescript","Git & GitHub"],
-            github: "#",
+            tech: ["React", "Tailwind CSS", "Vite", "Framer Motion", "Typescript", "Git & GitHub"],
+            github: "https://github.com/vaibhavcoreai/fun-portfolio",
             doodle: (
                 <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
                     <rect x="5" y="10" width="4" height="15" fill="#FF6B6B" />
